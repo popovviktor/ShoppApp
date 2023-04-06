@@ -13,8 +13,9 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        System.out.println("add printssssssssssss")
         supportFragmentManager.beginTransaction().replace(R.id.place_holder_login_act,SignFragment()).commit()
-        
+
 
 
     }
